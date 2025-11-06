@@ -12,6 +12,24 @@
   - Only variables, prompt(), strings, and innerHTML.
   - Write your own prompts and story!
 */
+let userYear = prompt('Type a year')
+let userName = prompt('What is your name?')
+let userCelebrity = prompt('Name a celebrity')
+let userVerb = prompt('Type a verb')
+let userPlanet = prompt('Name a planet')
+let userNumber = prompt('Type a number')
+let userThing = 
+let userAdjective = prompt('Type an adjective')
+let userAdjective2 = prompt('Type another adjective')
+let userAdjective3 = prompt('Type a third adjective')
+let userState = prompt('Type a state')
+let userShip = prompt('Type something you would name a robot')
+let userNumber2 = prompt('Type a number')
+let userJob = prompt ('')
+let userNumber3 = prompt ('Type another number')
+let userAdjective4 = ('Type an adjective')
+
+
 
 /* 1) CREATE VARIABLES 
    - Make one variable per word you need (e.g., a noun, a verb, an adjective, a place, a number, etc.)
