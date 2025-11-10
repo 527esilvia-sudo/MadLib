@@ -12,23 +12,8 @@
   - Only variables, prompt(), strings, and innerHTML.
   - Write your own prompts and story!
 */
-let userYear = prompt('Type a year')
-let userName = prompt('What is your name?')
-let userCelebrity = prompt('Name a celebrity')
-let userVerb = prompt('Type a verb')
-let userPlanet = prompt('Name a planet')
-let userNumber = prompt('Type a number')
-let userThing = 
-let userAdjective = prompt('Type an adjective')
-let userAdjective2 = prompt('Type another adjective')
-let userAdjective3 = prompt('Type a third adjective')
-let userState = prompt('Type a state')
-let userShip = prompt('Type something you would name a robot')
-let userNumber2 = prompt('Type a number')
-let userJob = prompt ('')
-let userNumber3 = prompt ('Type another number')
-let userAdjective4 = ('Type an adjective')
 
+// Display story on the page
 
 
 /* 1) CREATE VARIABLES 
@@ -73,3 +58,30 @@ let userAdjective4 = ('Type an adjective')
    - Comments: Explain each step in your code.
    - GitHub: Commit often with clear messages; publish on GitHub Pages.
 */
+let userYear = prompt("Type a year")
+let userName = prompt("What is your name?")
+let userCelebrity = prompt("Name a celebrity")
+let userVerb = prompt("Type a verb")
+let userPlanet = prompt("Name a planet")
+let userNumber = prompt("Type a number")
+let userThing = prompt("Something fluffy and cute")
+let userAdjective = prompt("Type an adjective")
+let userAdjective2 = prompt("Type another adjective")
+let userAdjective3 = prompt("Type a third adjective")
+let userState = prompt("Type a state")
+let userShip = prompt("Type something you would name a robot")
+let userNumber2 = prompt("Type a number")
+let userJob = prompt ("Type an upstanding profession")
+let userNumber3 = prompt ("Type another number")
+let userAdjective4 = prompt ("Type an adjective")
+
+let story = `
+On August 26, ${userYear}, ${userName} and ${userCelebrity} were the first to ${userVerb} on ${userPlanet}. 
+It took ${userName} and ${userCelebrity} a long time to get there — ${userNumber} days — because there was a horde of ${userThing}s attacking them. 
+When they arrived, they looked around and saw ${userThing}s everywhere and thought ${userPlanet} looked ${userAdjective}. 
+" ${userName} then said${userAdjective2} step for man, one ${userAdjective3} leap for mankind," . 
+Then ${userName} and ${userCelebrity} returned home to ${userState} on their spaceship, the ${userShip} 500. 
+It took only ${userNumber2} days to get home, where ${userJob}s cheered for ${userNumber3} minutes. 
+They were remembered for their ${userAdjective4} discoveries.
+`;
+document.getElementById("madlib-output").innerHTML = story;

@@ -1,14 +1,32 @@
 /* Keep styles simple and readable for beginners */
 :root {
   --card-radius: 1rem;
+  
 }
 
 .card {
   border-radius: var(--card-radius);
+  background:black;
+  color:white;
+}
+
+.container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 #madlib-output {
-  min-height: 6rem; /* keeps the card from collapsing before story appears */
+  min-height: 6rem;
   line-height: 1.6;
-  font-size: 1.05rem;
+  font-size: 1.4rem;
+}
+body {
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyNWFleWxoMjh6NTBxYjJ6NHl5YWMwNXI4em95am5waG9mYzluM2VueCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/U3qYN8S0j3bpK/giphy-downsized.gif'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+font-family: "tachyon", sans-serif;
+font-weight: 400;
+font-style: normal;
+word-spacing:5px;
 }
