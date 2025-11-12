@@ -65,31 +65,31 @@ let userName = prompt("What is your name?")
 let userCelebrity = prompt("Name a celebrity")
 // Asks user for a celebrity and inputs answer within story using string interpolation
 let userVerb = prompt("Type a verb")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a verb and inputs answer within story using string interpolation
 let userPlanet = prompt("Name a planet")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a planet and inputs answer within story using string interpolation
 let userNumber = prompt("Type a number")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a number and inputs answer within story using string interpolation
 let userThing = prompt("Something fluffy and cute")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for something fluffy and cute and inputs answer within story using string interpolation
 let userAdjective = prompt("Type an adjective")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for an adjective and inputs answer within story using string interpolation
 let userAdjective2 = prompt("Type another adjective")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for another adjective and inputs answer within story using string interpolation
 let userAdjective3 = prompt("Type a third adjective")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a third adjective and inputs answer within story using string interpolation
 let userState = prompt("Type a state")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a state and inputs answer within story using string interpolation
 let userShip = prompt("Type something you would name a robot")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a name for a robot and inputs answer within story using string interpolation
 let userNumber2 = prompt("Type a number")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a number and inputs answer within story using string interpolation
 let userJob = prompt ("Type an upstanding profession")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for an upstanding profession and inputs answer within story using string interpolation
 let userNumber3 = prompt ("Type another number")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for a number and inputs answer within story using string interpolation
 let userAdjective4 = prompt ("Type an adjective")
-// Asks user for a year and inputs answer within story using string interpolation
+// Asks user for an adjective and inputs answer within story using string interpolation
 
 let story = `
 On August 26, ${userYear}, ${userName} and ${userCelebrity} were the first to ${userVerb} on ${userPlanet}. 
